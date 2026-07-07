@@ -1,0 +1,27 @@
+@"
+venv/
+.venv/
+env/
+ENV/
+
+.env
+*.env
+!.env.example
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+papers/*.pdf
+eval/results.json
+eval/test_questions.json
+
+.streamlit/secrets.toml
+
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
